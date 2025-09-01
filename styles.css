@@ -142,9 +142,11 @@ header p{
     background-color: aliceblue;
     margin-bottom: 3px;
 }
-.projects div:hover,.projects-2 div:hover,.projects-3 div:hover {
+@media(min-width:600px){
+  .projects div:hover,.projects-2 div:hover,.projects-3 div:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
+}
 }
 .top-clients{
     font-size: 3em;
@@ -366,3 +368,4 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
