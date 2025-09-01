@@ -3,7 +3,7 @@ html{
 }
 header p,header h1{
     margin: 5px;
-    color: white;
+    color: rgb(11,83,239);
 
 }
 .number{
@@ -368,6 +368,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
