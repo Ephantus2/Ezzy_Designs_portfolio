@@ -165,7 +165,7 @@ header p{
     margin: 2px;
     text-align: center;
 }
-@media(min-width:700px){
+@media(min-width:900px){
    .projects,.projects-2,.projects-3{
     display: grid;
     grid-template-columns: repeat(4,  1fr);
@@ -368,6 +368,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
