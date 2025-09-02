@@ -72,7 +72,7 @@ header{
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.3);
     z-index: 2;
     border-bottom-right-radius: 150px;
 }
@@ -368,6 +368,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
