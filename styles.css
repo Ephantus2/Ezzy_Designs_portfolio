@@ -70,11 +70,17 @@ header{
     position: relative;
     top:100px;
 }
-/* @media(max-width: 580px){
+ @media(max-width: 580px){
   header{
   background: url(images/background2.jpg);
   }
-} */
+   .p{
+     display: none;
+   }
+   header div p,header div h1{
+    color: white;
+   }
+} 
 .overlay{
     position: absolute;
     top: 0;
@@ -377,6 +383,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
