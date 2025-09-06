@@ -81,7 +81,7 @@ header{
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
     z-index: 2;
     border-bottom-right-radius: 150px;
 }
@@ -377,6 +377,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
