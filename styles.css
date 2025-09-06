@@ -70,13 +70,16 @@ header{
     position: relative;
     top:100px;
 }
+@media(max-width: 580px){
+  background: url(images/background2.jpg);
+}
 .overlay{
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
     z-index: 2;
     border-bottom-right-radius: 150px;
 }
@@ -372,6 +375,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
