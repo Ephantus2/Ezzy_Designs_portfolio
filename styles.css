@@ -1,10 +1,14 @@
 html{
   scroll-behavior: smooth;
 }
-header p,header h1{
+header div p,header div h1{
     margin: 5px;
     color: blue;
 
+}
+.content{
+  position: relative;
+  z-index: 20;
 }
 .number{
   margin: 0;
@@ -27,7 +31,7 @@ header p,header h1{
 #intro{
     background-color: rgb(231, 235, 238);
     position: fixed;
-    z-index: 5;
+    z-index: 30;
     width: 100vw;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
@@ -368,6 +372,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
