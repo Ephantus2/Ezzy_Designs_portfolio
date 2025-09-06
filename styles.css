@@ -73,7 +73,7 @@ header{
  @media(max-width: 580px){
   header{
   background: url(images/background2.jpg);
-    background-size: contain;
+    background-size: 100vw;
   }
    .p{
      display: none;
@@ -384,6 +384,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
