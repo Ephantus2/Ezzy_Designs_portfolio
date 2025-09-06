@@ -71,7 +71,9 @@ header{
     top:100px;
 }
 @media(max-width: 580px){
+  header{
   background: url(images/background2.jpg);
+  }
 }
 .overlay{
     position: absolute;
@@ -375,6 +377,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
