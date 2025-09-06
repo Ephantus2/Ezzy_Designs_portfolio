@@ -65,7 +65,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    
     border-bottom-right-radius: 150px;
     position: relative;
     top:100px;
@@ -383,6 +383,7 @@ ol li a{
 section {
   scroll-margin-top: 120px; /* for fixed navbar */
 }
+
 
 
 
